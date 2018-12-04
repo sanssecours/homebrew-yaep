@@ -9,6 +9,7 @@ class Yaep < Formula
   needs :cxx11
 
   def install
+    ENV.deparallelize
     system "cmake", ".", *std_cmake_args
     system "make", "install"
   end
