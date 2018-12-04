@@ -11,6 +11,8 @@ brew tap sanssecours/yaep
 brew install yaep
 ```
 
+.
+
 ## Troubleshooting
 
 To check if the installation was successful please use the command `brew test yaep`.
